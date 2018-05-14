@@ -1,44 +1,9 @@
-.right_sidebar {
-  background-color: #42a8c0;
+body {
+  background-color: #d0d0d0;
 }
-.right_sidebar .row {
-
-}
-.right_sidebar .row .profile-container {
-padding: 30px;
-text-align: center;
-background-color: rgba(0,0,0,0.2)
-}
-.right_sidebar .row .profile-container img {
-  border-radius: 50%;
-  width: 100px;
-  height: 100px;
-}
-.right_sidebar .row .profile-container h2.name {
-color: white;
-font-weight: 900;
-}
-.right_sidebar .row .profile-container h3.tagline {
-color: white;
-font-weight: 100;
-font-size: 1.75rem;
-}
-.contact-container {
-  padding: 30px;
-}
-.contact-container ul.contact-list {
-  margin-bottom: 0;
-}
-.contact-container ul.contact-list li{
-  margin-bottom: 8px;
-}
-.contact-container ul.contact-list li:last-child{
-  margin-bottom: 0;
-}
-.contact-container ul.contact-list li a{
-  color: #fff;
-  text-decoration: none;
-}
-.contact-container ul.contact-list li a i{
-  margin-right: 5px;
+body .container>.row {
+  background-color: #fff;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.5)
 }

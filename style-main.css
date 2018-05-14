@@ -1,0 +1,60 @@
+.main_content .row {
+  padding: 60px;
+  padding-bottom: 0;
+  padding-top: 40px;
+}
+.main_content .row .section {
+  margin-bottom: 45px;
+}
+.main_content .row .section h2.section-title {
+  text-transform: uppercase;
+  font-weight: 900;
+  color: #2d7788;
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+}
+.main_content .row .section h2.section-title i.fa {
+  background-color: #2d7788;
+  color:#fff;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  font-size: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 5px;
+}
+.main_content .row .section div.summary p {
+  color: #545e6c;
+  font-size: 16px;
+  }
+  .main_content .row .section div.summary b{
+    font-size: 22px;
+    font-weight: bold;
+    color: #333;
+  }
+.item .meta .upper-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.item .meta .upper-row h3.job-title {
+  font-weight: 900;
+  margin: 0;
+}
+.item .meta .upper-row div.date {
+  color: #545e6c;
+  opacity: 0.5;
+}
+.item .meta div.company {
+  color: #545e6c;
+  opacity: 0.5;
+  font-size: 16px;
+}
+.item .details p {
+  color: #545e6c;
+font-size: 16px;
+margin-bottom: 20px;
+}

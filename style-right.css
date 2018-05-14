@@ -1,0 +1,57 @@
+.right_sidebar {
+  background-color: #42a8c0;
+}
+.right_sidebar .row {
+color: #fff;
+}
+.right_sidebar .row .profile-container {
+padding: 30px;
+text-align: center;
+background-color: rgba(0,0,0,0.2)
+}
+.right_sidebar .row .profile-container img {
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+}
+.right_sidebar .row .profile-container h2.name {
+font-weight: 900;
+}
+.right_sidebar .row .profile-container h3.tagline {
+font-weight: 100;
+font-size: 1.75rem;
+}
+.contact-container {
+  padding: 30px;
+  height: 78vh;
+}
+.contact-container ul.contact-list {
+  margin-bottom: 0;
+}
+.contact-container ul.contact-list li {
+  margin-bottom: 8px;
+}
+.contact-container ul.contact-list li:last-child {
+  margin-bottom: 0;
+}
+.contact-container ul.contact-list li a {
+  color: #fff;
+  text-decoration: none;
+}
+.contact-container ul.contact-list li a i {
+  margin-right: 5px;
+}
+/* ======================================================================= */
+/* .education-container {
+  padding: 30px;
+}
+h3.education {
+font-weight: 900;
+}
+h4.speciality {
+font-size: 16px;
+}
+h4.speciality + p{
+font-size: 1.75rem;
+} */
+/* ====================  Блок ОБРАЗОВАНИЕ  ========================== */

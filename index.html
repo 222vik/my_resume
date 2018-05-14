@@ -7,27 +7,110 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
   <link rel="stylesheet" href="style.css">
-  <title>Document</title>
+  <link rel="stylesheet" href="style-right.css">
+  <link rel="stylesheet" href="style-main.css">
+  <title>My resume</title>
 </head>
 <body>
 <div class="container">
   <div class="row">
     <div class="col-sm-8 main_content" >
+      <div class="row">
+        <section class="section summary-section">
+          <h2 class="section-title">
+            <i class="fa fa-user"></i>личные данные</h2>
+          <div class="summary">
+            <p><b>Пашковский Виктор Алексеевич. </b><br>
+            Дата рождения: 25 января 1964 г. <br>
+            Место проживания: г. Запорожье, Украина.</p>
+          </div>
+        </section>
+<!-- ==================  ЛИЧНЫЕ ДАННЫЕ  ========================           -->
+
+        <section class="section education-section">
+          <h2 class="section-title">
+            <i class="fa fa-graduation-cap"></i>образование</h2>
+          <div class="item">
+            <div class="meta">
+              <div class="upper-row">
+                <h3 class="job-title">Индустриальный техникум</h3>
+                <div class="date">1989 - 1992</div>
+              </div>
+              <div class="company">Факультет</div>
+            </div>
+            <div class="details">
+              <p>Электрооборудование промышленных предприятий</p>
+            </div>
+          </div>
+          <div class="item">
+            <div class="meta">
+              <div class="upper-row">
+                <h3 class="job-title">Курсы HTML. CSS</h3>
+                <div class="date">2017</div>
+              </div>
+              <div class="company">Zengineers</div>
+            </div>
+            <div class="details">
+              <p>Вёрстка сайтов</p>
+            </div>
+          </div>
+        </section>
+<!-- ==========================  ОБРАЗОВАНИЕ  ======================== -->
+        <section class="section skill-section">
+          <h2 class="section-title">
+            <i class="fa fa-briefcase"></i>навыки</h2>
+          <div class="item">
+            <div class="details">
+              <p>Имею базовые знания по кросбраузерной верстке с применением
+                HTML-5, CSS-3, Flexbox, Bootstrap. Знаком на базовом уровне с ОС
+                Linux (работа в терминале). А также Git. <br> Постоянно углубляю
+                свои знания, занимаюсь самообразованием. <br>
+                В данный момент работаю на фрилансе.</p>
+            </div>
+          </div>
+        </section>
+  <!-- =========================  НАВЫКИ  ============================ -->
+        <section class="section skill-section">
+          <h2 class="section-title">
+            <i class="fa fa-font"></i>языки</h2>
+          <div class="item">
+            <div class="details">
+              <p>Русский - родной. <br>
+              Украинский - средний/разговорный. <br>
+              Английский - чтение со словарем.</p>
+            </div>
+          </div>
+        </section>
+<!-- =========================  ЯЗЫКИ  ============================= -->
+      </div>
     </div>
+    <!-- ================================================================ -->
     <div class="col-sm-4 right_sidebar">
       <div class="row">
         <div class="profile-container">
-          <img src="IMG_20180501_153601.jpg" alt="photo">
-          <h2 class="name">Viktor Pashkovsky</h2>
-          <h3 class="tagline">Web developer</h3>
+          <img src="IMG_20180501_153601(2) (2).jpg" alt="photo">
+          <h2 class="name">Виктор Пашковский</h2>
+          <h3 class="tagline">Веб-разработчик</h3>
         </div>
+  <!-- ====================  ЛИЧНЫЕ ДАННЫЕ  ================================ -->
         <div class="contact-container">
           <ul class="list-unstyled contact-list">
-            <li class=email><a href="mailto:viktor.pashkovsky@gmail.com"><i class="fa fa-envelope"></i> viktor.pashkovsky@gmail.com</a></li>
+            <li class="email"><a href="mailto:viktor.pashkovsky@gmail.com"><i class="fa fa-envelope"></i> viktor.pashkovsky@gmail.com</a></li>
             <li class="phone"><a href="tel:0502495225"><i class="fa fa-phone"></i> 050 249 52 25</a></li>
-
+            <li class="skype"><a href="skype:barvinok_vik"><i class="fa fa-skype"></i>barvinok_vik</a></li>
+            <li class="github"><a href="https://github.com/222vik"><i class="fa fa-github"></i>github.com/222vik</a></li>
           </ul>
         </div>
+        <!-- ===================  КОНТАКТЫ  ============================= -->
+        <!-- ======================================================== -->
+        <!-- <div class="education-container">
+          <h3 class="education">Образование</h3>
+          <h4 class="speciality">Индустриальный техникум</h4>
+          <p>1989-1992</p>
+          <h4 class="speciality">Курсы HTML. CSS</h4>
+          <p>2017</p>
+        </div> -->
+        <!-- ==============  Блок ОБРАЗОВАНИЕ  ============================ -->
       </div>
     </div>
   </div>
